@@ -1,9 +1,6 @@
-<template>　 <!--ここでコンポーネントを読み込んでいく、大元のvue-->
-
+<template><!--ここでコンポーネントを読み込んでいく、大元のvue-->
   <div id="app">
-
     <p>Kaito Takeuchi</p>
-
     <div id="nav">
        <!--to~~はurlの名前になる-->
       <router-link to="/">Home</router-link> <!--views/home-->
@@ -11,13 +8,11 @@
       <router-link to="/works">Works</router-link> <!--views/works-->
       <router-link to="/contact">contact</router-link> <!--views/contact-->
     </div>
-
     <router-view/> <!--クリックしたvueが表示される-->
    </div>
-
-
-
+   
 </template>
+
 
 <style>
 #app {
@@ -32,7 +27,6 @@
   height: auto;
   margin-top: 50px;
 }
-
 #nav a {
   font-weight: bold;
   color: #2c3e50;
